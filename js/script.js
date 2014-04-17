@@ -63,7 +63,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-
     var saveTime;
     ul.addEventListener('keyup', function (e) {
         songList[e.target.id].text = e.target.textContent;
